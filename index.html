@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="vvod">
+            <button class="ster" onclick="clean()">
+                C
+            </button>
+            <div class="item"><form name="form"><input type="text" name="textview" readonly></form></div>
+        </div>
+        <div class="nambers-1">
+            <button class="seven" onclick="insert('7')">
+                7
+            </button>
+            <button class="eit" onclick="insert('8')">
+                8
+            </button>
+            <button class="nain" onclick="insert('9')">
+                9
+            </button>
+            <button class="plus" onclick="insert('+')">
+                +
+            </button>
+        </div>
+        <div class="nambers-2">
+            <button class="foo" onclick="insert('4')">
+                4
+            </button>
+            <button class="fiv" onclick="insert('5')">
+                5
+            </button>
+            <button class="six" onclick="insert('6')">
+                6
+            </button>
+            <button class="minus" onclick="insert('-')">
+                -
+            </button>
+        </div>
+        <div class="nambers-3">
+            <button class="uon" onclick="insert('1')">
+                1
+            </button>
+            <button class="tuo" onclick="insert('2')">
+                2
+            </button>
+            <button class="fri" onclick="insert('1')">
+                3
+            </button>
+            <button class="delt" onclick="insert('/')">
+                /
+            </button>
+        </div>
+        <div class="nambers-4">
+            <button class="zero" onclick="insert('0')">
+                0
+            </button>
+            <button class="tochka" onclick="insert('.')">
+                .
+            </button>
+            <button class="ravno" onclick="equal()">
+                =
+            </button>
+            <button class="umnoj" onclick="insert('*')">
+                *
+            </button>
+        </div>
+    </div>
+    <script>
+        function insert(num) {
+            document.form.textview.value =
+            document.form.textview.value + num;
+        }
+        function clean() {
+            document.form.textview.value = "";
+        }
+        function equal() {
+            var exp = document.form.textview.value;
+            if(exp) {
+                document.form.textview.value = eval(exp);
+            }
+        }
+    </script>
+</body>
+</html>

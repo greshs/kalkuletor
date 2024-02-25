@@ -1,0 +1,98 @@
+.conteiner {
+    border-radius: 5px;
+    box-shadow: 0 4px 1px #5b79b6;
+}
+
+.conteiner {
+    width: 365px;
+    height: 245px;
+    padding: 15px;
+    background-color: rgba(108, 169, 213, 0.597);
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 0 4px 0px rgba(0, 0, 0, 0.234);
+}
+
+.item {
+    margin-left: 94px;
+    margin-top: -40px;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid rgba(60, 161, 179, 0.445);
+    background-color: rgba(60, 161, 179, 0.445);
+    box-shadow: 0 -4px 1px rgba(35, 92, 102, 0.708);
+}
+
+.ster {
+    margin-right: 10px;
+    background-color: rgb(250, 159, 159);
+    box-shadow: 0 4px 0px rgba(151, 58, 58, 0.618);
+    border: 2px solid rgb(250, 159, 159);
+}
+
+input {
+    width: 260px;
+    height: 35px;
+}
+
+.nambers-1 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.eit {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.plus {
+    margin-left: 10px;
+}
+
+.nambers-2 {
+    padding-bottom: 10px;
+}
+
+.fiv {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.minus {
+    margin-left: 10px;
+}
+
+.nambers-3 {
+    padding-bottom: 10px;
+}
+
+.tuo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.delt {
+    margin-left: 10px;
+}
+
+.tochka {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.umnoj {
+    margin-left: 10px;
+}
+
+.ravno {
+    background-color: rgb(206, 246, 97);
+    box-shadow: 0 4px 1px rgb(127, 150, 36);
+    border: 2px solid rgb(206, 246, 97);
+}
